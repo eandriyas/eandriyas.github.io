@@ -9,30 +9,97 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<style>
+			body{
+				margin: 0 auto;
+				width: 1024px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Andriyas github Page's</h1>
+					<div class="page-header">
+						<h1>Andriyas Github page's <small>for good</small></h1>
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="nav nav-tabs" role="tablist" id="myTab">
-						<li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
-						<li><a href="#profile" role="tab" data-toggle="tab">Product</a></li>
+						<li><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+						<li><a href="#product" role="tab" data-toggle="tab">Product</a></li>
 						<li><a href="#messages" role="tab" data-toggle="tab">Contacts</a></li>
 						<li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
 					</ul>
 					<div class="tab-content">
-						<div class="tab-pane fade in active" id="home">
-							<h1>Home</h1>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quia nam animi dignissimos, nisi veniam quidem modi voluptatum repudiandae maiores dolores vero, laudantium minus, laboriosam explicabo beatae ipsa alias facere.
+						<div class="tab-pane fade active" id="home">
+							<div class="row">
+								<div class="col-md-12">
+									<h1>Home</h1>
+									<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quia nam animi dignissimos, nisi veniam quidem modi voluptatum repudiandae maiores dolores vero, laudantium minus, laboriosam explicabo beatae ipsa alias facere.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									
+									<div class="jumbotron">
+										<h1>Hello, world!</h1>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt similique, ea magnam dolore cum at voluptates voluptas deserunt veritatis...</p>
+										<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="list-group">
+										<a href="#" class="list-group-item disabled">
+											Cras justo odio
+										</a>
+										<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+										<a href="#" class="list-group-item">Morbi leo risus</a>
+										<a href="#" class="list-group-item">Porta ac consectetur ac</a>
+										<a href="#" class="list-group-item">Vestibulum at eros</a>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="tab-pane fade" id="profile">
+						<div class="tab-pane fade" id="product">
 							<h1>Product</h1>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem commodi magnam, fugiat quas a sequi excepturi qui! Repudiandae debitis perferendis itaque, laborum, a nobis omnis iusto atque porro aliquam mollitia.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem commodi magnam, fugiat quas a sequi excepturi qui! Repudiandae debitis perferendis itaque, laborum, a nobis omnis iusto
+							<div class="row">
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img data-src="holder.js/300x300" alt="...">
+										<div class="caption">
+											<h3>Thumbnail label</h3>
+											<p>...</p>
+											<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img data-src="img/index.svg" >
+										<div class="caption">
+											<h3>Thumbnail label</h3>
+											<p>...</p>
+											<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img data-src="holder.js/300x300" alt="...">
+										<div class="caption">
+											<h3>Thumbnail label</h3>
+											<p>...</p>
+											<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="tab-pane fade" id="messages">
 							<h1>Contacts</h1>
@@ -46,18 +113,15 @@
 				</div>
 			</div>
 		</div>
-		
 		<div class="footer">
-			
 		</div>
-		
 		<script src="js/jquery-1.11.0.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/andri.js"></script>
 		<script>
 		$(function () {
-		$('#myTab a:last').tab('show')
+		$('#myTab a:first').tab('show')
 		})
 		</script>
 	</body>
