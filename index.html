@@ -6,25 +6,59 @@
 		<title>Andriyas github page</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-		<script src="js/andri.js"></script>
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<ul id="myTab" class="nav nav-tabs" role="tablist">
-						<li class="active"><a href="#">Home</a></li>
-						<li ><a href="#">Profile</a></li>
-						<li ><a href="#">Messages</a></li>
+					<h1>Andriyas github Page's</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-tabs" role="tablist" id="myTab">
+						<li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+						<li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+						<li><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+						<li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
 					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade in active" id="home">
+							<h1>Home</h1>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quia nam animi dignissimos, nisi veniam quidem modi voluptatum repudiandae maiores dolores vero, laudantium minus, laboriosam explicabo beatae ipsa alias facere.
+						</div>
+						<div class="tab-pane fade" id="profile">
+							<h1>profile</h1>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem commodi magnam, fugiat quas a sequi excepturi qui! Repudiandae debitis perferendis itaque, laborum, a nobis omnis iusto atque porro aliquam mollitia.
+						</div>
+						<div class="tab-pane fade" id="messages">
+							<h1>messages</h1>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, consequuntur quibusdam, quod perferendis quaerat itaque doloremque, quos sequi, iste maiores ullam delectus mollitia? Magni dignissimos dolore nam incidunt ab! Fugit.
+						</div>
+						<div class="tab-pane fade" id="settings">
+							<h1>settings</h1>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nihil enim accusantium sequi, ipsum dolores quisquam nemo adipisci nulla accusamus suscipit provident recusandae placeat, ullam neque commodi. Aliquam, et, iure!
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		
+		<div class="footer">
+			
+		</div>
+		
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/andri.js"></script>
+		<script>
+		$(function () {
+		$('#myTab a:last').tab('show')
+		})
+		</script>
 	</body>
 </html>
