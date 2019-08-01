@@ -1,0 +1,412 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    position: relative;
+    height: 2141px;
+    width: 100%;
+    background: linear-gradient(223.1deg, #1E50CA -0.58%, rgba(74, 122, 242, 0.93) 103.51%);
+}
+
+.code {
+
+    position: absolute;
+    width: 417px;
+    height: 113px;
+    left: 874px;
+    top: 130px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    /* identical to box height */
+
+
+    color: rgba(255, 255, 255, 0.53);
+}
+
+.hi {
+    position: absolute;
+    height: 42px;
+    left: 330px;
+    top: 243px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FAFAFA;
+}
+
+.hi-desc {
+    position: absolute;
+    width: 427px;
+    height: 112px;
+    left: 330px;
+    top: 302px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+}
+
+.call-me {
+    position: absolute;
+    width: 100%;
+    height: 21px;
+    text-align: center;
+    /* padding: 10px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FBFAFA;
+    vertical-align: middle;
+    padding: 10px 0 10px 0;
+}
+
+.btn-call-me {
+    position: absolute;
+    width: 139px;
+    height: 45px;
+    left: 330px;
+    top: 431px;
+    background: linear-gradient(243.27deg, #1C3E90 0%, #2A5BD3 105.81%);
+    border-radius: 50px;
+}
+
+.experience {}
+
+.experience h4 {
+    position: absolute;
+    height: 42px;
+    left: 330px;
+    top: 830px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.experience p {
+    position: absolute;
+    width: 672px;
+    height: 168px;
+    left: 330px;
+    top: 899px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.skill h4 {
+    position: absolute;
+    height: 42px;
+    left: 330px;
+    top: 1094px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.skill ul {
+    position: absolute;
+    width: 102px;
+    height: 105px;
+    left: 330px;
+    top: 1163px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+}
+
+.project h4 {
+    position: absolute;
+    height: 42px;
+    left: 330px;
+    top: 1295px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+}
+
+.project-list {}
+
+.project-list a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 10px 10px 0;
+    float: left;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.project-list img {
+    width: 100%;
+    height: 128px;
+    left: 330px;
+    background: #6888D6;
+    border-radius: 5px;
+    float: left;
+}
+
+.project ul {
+    position: absolute;
+    left: 330px;
+    top: 1383px;
+    width: 60%;
+}
+
+.project ul li {
+    width: 23%;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+    float: left;
+}
+
+.get-touch {}
+
+.get-touch h4 {
+    position: absolute;
+    height: 42px;
+    left: 330px;
+    top: 1694px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.get-touch p {
+    position: absolute;
+    width: 337px;
+    height: 42px;
+    left: 330px;
+    top: 1746px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.get-touch .btn-call-me {
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    left: 330px;
+    top: 1808px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: #FBFAFA;
+    vertical-align: middle;
+    float: left;
+    padding: 10px 0 10px;
+    text-decoration: none;
+}
+
+.footer p {
+    position: absolute;
+    height: 21px;
+    left: 330px;
+    top: 2081px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.bg-gradient {
+    position: absolute;
+    width: 1441px;
+    height: 910.52px;
+    right: 0px;
+    top: 436.48px;
+    background-image: url('/img/bg-gradient.png');
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
