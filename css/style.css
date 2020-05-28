@@ -278,16 +278,13 @@ body {
     position: absolute;
     height: 42px;
     left: 330px;
-    top: 1295px;
-
+    top: 1388px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-
     color: #FFFFFF;
-
 }
 
 .project-list {}
@@ -313,10 +310,16 @@ body {
     float: left;
 }
 
+.project {}
+
+.get-touch {}
+
+.footer {}
+
 .project ul {
     position: absolute;
     left: 330px;
-    top: 1383px;
+    top: 1440px;
     width: 60%;
 }
 
@@ -327,7 +330,13 @@ body {
     float: left;
 }
 
-.get-touch {}
+.get-touch {
+    position: absolute;
+    height: 42px;
+    /* left: 330px; */
+    top: 80px;
+    width: 100%;
+}
 
 .get-touch h4 {
     position: absolute;
@@ -409,4 +418,92 @@ body {
     width: 1440px;
     margin: 0 auto;
     position: relative;
+}
+
+.project-list a {
+    width: 100%;
+}
+
+.text-description {
+    text-align: left;
+    font-weight: normal;
+    color: #fff;
+    font-family: arial;
+}
+
+.backend {
+    position: absolute;
+    width: 102px;
+    height: 105px;
+    left: 330px;
+    top: 1163px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.backend strong {
+    font-weight: bold;
+}
+
+.backend ul {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    list-style: disc;
+}
+
+.frontend {
+    position: absolute;
+    width: 102px;
+    height: 105px;
+    left: 330px;
+    top: 1240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.frontend strong {
+    font-weight: bold;
+}
+
+.frontend ul {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    list-style: disc;
+}
+
+.database {
+    position: absolute;
+    width: 102px;
+    height: 105px;
+    left: 330px;
+    top: 1300px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.database strong {
+    font-weight: bold;
+}
+
+.database ul {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    list-style: disc;
 }
